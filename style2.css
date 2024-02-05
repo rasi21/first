@@ -1,0 +1,125 @@
+
+body{
+    background-color: rgb(215, 219, 206);
+}
+.container{
+    width: 80%;
+   margin: auto;
+}
+header{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 1%;
+    color: rgb(66, 66, 95);
+    margin: 0.3%;
+    
+}
+main{
+    padding: 0.5%;
+  display: flex;
+  
+}
+nav a{
+    text-decoration: none;
+    padding: 0.5%;
+    color: rgb(19, 68, 97);
+}
+nav a:hover{
+    color: rgb(110, 163, 163);
+    cursor: pointer;
+}
+section{
+    padding-bottom: 0.5%;
+    
+    
+}
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 0.5;
+}
+.b{
+    width: 70%;
+ 
+    
+    float:left; margin:01.5%; width:63%; min-width:350px;
+}
+.a{
+    text-align: center;
+    width: 25%;
+    float: right;
+}
+label{
+    display: block;
+    margin: 1px;
+}
+label span{
+    margin:1px; width:50px; display:block;
+}
+.me{
+    color: rgb(29, 25, 20);
+    font-size:larger;
+}
+form{
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:  0 0 100px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+}
+.costomlabel{
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.customInput{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+label small{
+    color: red;
+}
+.rad {
+display:flex;
+margin-bottom: 10px;
+
+   
+}
+
+button{
+    background-color: antiquewhite;
+    padding: 10px 10px;
+    border: 1px sikuid black;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.section a {
+    text-decoration: none;
+    color: rgb(20, 26, 24);
+}
+.section a:hover{
+    color: blueviolet;
+}
+.rad1{
+    margin: 5px;
+}
+.rad1 label{
+    cursor: pointer;
+}
+textarea{
+    resize: none;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
