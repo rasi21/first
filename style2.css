@@ -2,6 +2,11 @@
 body{
     background-color: rgb(215, 219, 206);
 }
+:root{
+    --import-color:rgb(230, 104, 104);
+    --secondarty-color:rgb(146, 141, 141);
+    --txt-any-name:uppercase;
+}
 .container{
     width: 80%;
    margin: auto;
@@ -19,6 +24,12 @@ main{
   display: flex;
   
 }
+#p2{
+    
+}
+nav{
+    background-color: gray;
+}
 nav a{
     text-decoration: none;
     padding: 0.5%;
@@ -33,6 +44,7 @@ section{
     
     
 }
+
 footer{
     background-color: white;
     text-align: center;
@@ -48,6 +60,8 @@ footer{
     text-align: center;
     width: 25%;
     float: right;
+    margin-top: 142px;
+
 }
 label{
     display: block;
@@ -122,4 +136,62 @@ textarea{
     margin-bottom: 16px;
     border-radius: 5px;
     box-sizing: border-box;
+}
+.transition{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(181, 175, 185);
+    margin: 0 auto;
+    margin-bottom: 50px;
+    transition:width 0.5s ease-in-out;
+    color: red;
+   
+}
+.transition:hover {
+    width: 550px;
+    height: 150px;
+    background-color: rgb(181, 175, 185);
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-color: rgb(52, 138, 109);
+    color: aliceblue;
+    cursor: pointer;
+    font-size: larger;
+   
+}
+
+@keyframes colors {
+    0%{
+        background-color: aquamarine;
+
+    }
+    50%{
+        background-color: rgb(230, 97, 97);
+        color: beige;
+    }
+    100%{
+        background-color: antiquewhite;
+    }
+    
+}
+.import{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 5px;
+    text-indent: 3%;
+    color: var(--import-color);
+    animation: colors 3s infinite ease-in-out;
+
+}
+section p{
+    color: var(--secondarty-color);
+    
+    
+}
+
+#p2{
+    text-transform: var(--txt-any-name);
+}
+section img{
+    width: 99%;
 }
