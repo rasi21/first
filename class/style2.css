@@ -142,6 +142,7 @@ textarea{
     margin: 0 auto;
     margin-bottom: 50px;
     transition:width 0.5s ease-in-out;
+   
     color: red;
    
 }
